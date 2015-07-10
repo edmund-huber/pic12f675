@@ -4,7 +4,7 @@ Each project contains: gpasm/mpasm -compatible assembler, a circuit diagram,
 and a photo of a working breadboard.
 
 I recommend starting from
-[https://ehuber.info/blog/pic-development-in-linux.html] to get a grasp for the
+<https://ehuber.info/blog/pic-development-in-linux.html> to get a grasp for the
 very basics such as: the software toolchain (assembler, programmer), the power
 circuit, the breadboard.
 
