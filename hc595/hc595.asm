@@ -88,8 +88,8 @@ SHIFT_CLOCK macro
     movf BITS, W
     movwf BITS_COPY
 
-; Clock the least significant bit of W into the shift register, and rotate
-; bits, 3 times.
+; Clock the least significant bit of BITS_COPY into the shift register, and
+; rotate bits, 3 times.
 SHIFT_LSB_AND_CLOCK macro
     bcf GPIO, HC595_DS
     btfsc BITS_COPY, 0
