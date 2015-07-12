@@ -12,3 +12,4 @@ From simplest to most complicated:
 * *blink_led*: use a digital I/O pin to blink an LED every 1s.
 * *hc595*: use 3 digital I/O pins to control an HC595 SIPO shift register, which in turn drives up to 8 LEDs.
 * *hc595_daisy_chain*: daisy-chain two HC595s to drive up to 16 LEDs.
+* *button_interrupt*: interrupts for handling input changes while doing other things.
