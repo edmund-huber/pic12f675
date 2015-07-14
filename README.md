@@ -13,3 +13,4 @@ From simplest to most complicated:
 * *hc595*: use 3 digital I/O pins to control an HC595 SIPO shift register, which in turn drives up to 8 LEDs.
 * *hc595_daisy_chain*: daisy-chain two HC595s to drive up to 16 LEDs.
 * *button_interrupt*: interrupts for handling input changes while doing other things.
+* *7 segment LED*: two daisy-chained HC595s driving a 7-segment common-cathode LED IC.
